@@ -1,5 +1,4 @@
-# Random Coding Issue Website
-randomcodingissue.com
+# [Random Coding Issue Website](https://randomcodingissue.vercel.app/)
 
 **Issue logger website**
 
