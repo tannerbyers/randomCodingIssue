@@ -24,14 +24,14 @@ export default function Home() {
         <Form setResult={setResult} />
         {result && <Results result={result} />}
         <div className={styles.grid}>
-          <a href="https://nextjs.org/docs" className={styles.card}>
+          <a href="https://github.com/tannerbyers/randomcodingissue" className={styles.card}>
             <h2>Documentation &rarr;</h2>
-            <p>Find in-depth information about Next.js features and API.</p>
+            <p>Read more about the how and why of this website.</p>
           </a>
 
-          <a href="https://nextjs.org/learn" className={styles.card}>
-            <h2>Learn &rarr;</h2>
-            <p>Learn about Next.js in an interactive course with quizzes!</p>
+          <a href="https://github.com/tannerbyers/randomcodingissue" className={styles.card}>
+            <h2>Code &rarr;</h2>
+            <p>Check out the code that makes this site possible and maybe make your own version!</p>
           </a>
 
          
