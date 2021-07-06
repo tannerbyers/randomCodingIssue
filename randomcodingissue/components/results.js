@@ -3,7 +3,7 @@ import styles from "../styles/Home.module.css";
 const results = ({ result }) => {
   return result.map((post) => {
     return (
-      <div className={styles.card}>
+      <div key={post.postName}className={styles.card}>
         <h2>{post.postName}</h2>
         <p>Issue: {post.error} </p>
         <h1>
